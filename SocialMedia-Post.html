@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhavi Social</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        Bhavi Social
+        <button id="toggleTheme">🌙 Dark</button>
+    </header>
+
+    <div class="container">
+        <input type="text" id="searchAuthor" class="search-bar" placeholder="Search by author...">
+        <div class="posts-container">
+            <div id="posts"></div>
+        </div>
+        <div class="sidebar">
+            <h3>Create a New Post</h3>
+            <form id="postForm">
+                <input type="text" id="postInput" placeholder="Write the caption">
+                <input type="file" id="imageInput" accept="image/*">
+                <button type="submit">Post</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
